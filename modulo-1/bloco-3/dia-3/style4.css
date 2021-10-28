@@ -1,3 +1,47 @@
-div:hover{
+div:hover {
     border: 20px solid blue;
+}
+
+body div:nth-child(3) {
+    background-color: yellow;
+}
+
+body div:nth-child(4) {
+    background-color: green;
+}
+
+body div:nth-child(5) {
+    background-color: red;
+    height: 40px;
+}
+
+body div:nth-child(6) {
+    background-color: brown;
+}
+
+body div:nth-child(7) {
+    background-color: beige;
+}
+
+body div:nth-child(3) h3 {
+   color: blue; 
+   font-style: italic;
+}
+
+body div:nth-child(4) h3 {
+    color: pink; 
+}
+
+body div:nth-child(5) h3 {
+    color: rgb(0, 255, 0); 
+    font-style: italic;
+}
+
+body div:nth-child(6) h3 {
+    color: rgb(192, 185, 121); 
+}
+
+body div:nth-child(7) h3 {
+    color: rgb(255, 0, 21); 
+    font-style: italic;
 }
