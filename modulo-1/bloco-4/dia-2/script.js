@@ -23,7 +23,7 @@ console.log(tasksList);
 tasksList.shift();  // remove a última tarefa
 console.log(tasksList);*/
 
-// Exercícios
+// Exercícios array
 
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 let menuServices = menu[1];
@@ -37,3 +37,11 @@ console.log(indexOfPortfolio);
 menu.push("Contato");
 
 console.log(menu);
+
+// Exercícios for
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for(let i = 0; i < groceryList.length; i += 1) {
+    console.log(groceryList[i]);
+}
