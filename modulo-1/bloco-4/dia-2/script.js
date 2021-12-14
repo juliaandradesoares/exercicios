@@ -53,3 +53,85 @@ let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 for(let nome of names) {
     console.log("Boas-vindas, " + nome);
 }
+
+// Exercícios do dia
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let numero of numbers) {
+    console.log(numero);
+}
+
+let somatorio = 0;
+
+for (let numero of numbers) {
+    somatorio += numero;
+}
+
+console.log(somatorio);
+
+let novaSoma = 0
+
+for (let numero of numbers) {
+    novaSoma += numero;
+}
+
+console.log(novaSoma/numbers.length);
+
+if(novaSoma/numbers.length > 20) {
+    console.log("valor maior que 20");
+} else {
+    console.log("valor menor ou igual a 20");
+}
+
+let maiorNumero = 0;
+
+for (let numero of numbers) {
+    if(numero > maiorNumero) {
+        maiorNumero = numero;
+    } else {
+        maiorNumero = maiorNumero;
+    }
+}
+
+console.log(maiorNumero);
+
+let numerosImpares = 0;
+
+for (let numero of numbers) {
+    if (numero % 2 !== 0) {
+        numerosImpares += 1
+    } else {
+        numerosImpares = numerosImpares;
+    }
+}
+
+if (numerosImpares === 0) {
+    console.log("nenhum valor ímpar encontrado");
+} else {
+    console.log('O array tem ' + numerosImpares + ' números impares') 
+}
+
+let menorNumero = numbers[0];
+
+for (let numero of numbers) {
+    if(numero < menorNumero) {
+        menorNumero = numero;
+    } else {
+        menorNumero = menorNumero;
+    }
+}
+
+console.log(menorNumero);
+
+let meuArray = [];
+
+for (let index = 1; index <= 25; index += 1) {
+    meuArray.push(index);
+}
+
+console.log(meuArray)
+
+for (let numero of meuArray) {
+    console.log(numero/2);
+}
